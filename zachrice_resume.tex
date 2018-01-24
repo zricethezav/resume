@@ -1,0 +1,126 @@
+% Start a document with the here given default font size and paper size.
+\documentclass[10pt,a4paper]{moderncv}
+\moderncvtheme[black]{classic}
+% Set the page margins.
+\usepackage[a4paper,margin=0.75in]{geometry}
+% Setup the language.
+\usepackage[english]{babel}
+\hyphenation{Some-long-word}
+% Makes resume-specific commands available.
+\usepackage{resume}
+
+\begin{document}  % begin the content of the document
+
+% title on top of the document
+
+%\maintitle{Zachary J. Rice}{}{Last update on \today}{}
+%\newline
+%\noindent{zricezrice9@gmail.com}\sbull
+%\textsmaller217-714-5103
+
+\firstname{Zachary J.}
+\familyname{Rice}
+\phone{217-714-5103}
+\email{zricezrice@gmail.com}
+\social[github][www.github.com/zricethezav]{github.com/zricethezav}
+\social[linkedin][www.linkedin.com/in/zricethezav]{linkedin.com/in/zricethezav}
+\begin{document}
+\makecvtitle 
+
+
+
+\section{Experience}
+\headedsubsection
+{\textbf{Software Engineer} -- Agrible, Champaign}
+{October \apo15 -- present}
+{\begin{itemize} % Description(s) of tasks/responsibilities
+    \item {Backend developer for Morning Farm Report (MFR) -- a web application that delivers field-level forecasts on yield predictions, nutrient availability, fieldwork conditions, hail events, weather and sustainability metrics.}
+    \item {Develop idomatic Python code for our services hosted on AWS leveraging technologies like Kinesis, Firehose, Lambda and Redshift.}
+    \item {Develop internal tools for managing workflows and scheduling jobs.}
+    \item {Participate in daily standups, sprint planning and managing interns.}
+ \end{itemize}}
+}
+
+\headedsubsection
+{\textbf{Teaching Assistant} -- University of Illinios, Urbana}
+{August \apo14 -- December \apo15}{\break{\emph{ECE 220, Computer Systems and Programming}}}
+{\begin{itemize} % Description(s) of tasks/responsibilities
+    \item {Taught lab sections twice a week and taught lectures when professor was absent.}
+    \item {Topics included: C programming, LC3 assembly, recursion, pointers and data structures.}
+ \end{itemize}}
+}
+
+\headedsubsection
+{\textbf{Systems Intern} -- State Farm Research and Development Center, Champaign}
+{May \apo14 -- August \apo14}
+{\begin{itemize} % Description(s) of tasks/responsibilities
+    \item {Developed a computer vision project using OpenCV and Xbox Kinect to detect and track unsafe driving behaviors. This project was eventually open sourced to a Kaggle competition, \emph{State Farm Distracted Driver Detection}, for a \$65,000 prize -- \url{https://www.kaggle.com/c/state-farm-distracted-driver-detection}}
+ \end{itemize}}
+}
+
+
+\headedsubsection
+{\textbf{Accelerator Control Intern} -- Fermilab, Batavia}
+{May \apo13 -- Aug \apo13}
+{\begin{itemize} % Description(s) of tasks/responsibilities
+    \item {Created a replacement for a legacy application that was used to manage thousands of hardware instruments throughout Fermilab's campus.}
+ \end{itemize}}
+}
+
+
+\section{Education}
+
+\headedsubsection
+{\textbf{University of Illinois, Electrical and Computer Engineering}, Urbana, IL}
+{August \apo13 -- December \apo15}{\break{\emph{Bachelor of Science in Computer Engineering}}}
+{\begin{itemize} % Description(s) of tasks/responsibilities
+    \item {Member of ACM-SIG Music and ACM-SIG Computer Human Interaction}
+    \item {GPA: 3.11/4.0}
+ \end{itemize}}
+}
+
+\headedsubsection
+{\textbf{Parkland College}, Urbana, IL}
+{December \apo12 -- May \apo13}{\break{\emph{Associate of Science in Electrical Engineering Sciences and Computer Science}}}
+{\begin{itemize} % Description(s) of tasks/responsibilities
+    \item {GPA: 3.61/4.0}
+    \item {Awards: Dean's List, Walter H. Miller Scholarship, Heartland Bank Scholarship, UIUC's Employee Scholarship}
+ \end{itemize}}
+}
+
+
+
+\section{Projects}
+\headedsubsection
+{\textbf{Gronit} -- \url{github.com/zricethezav/gronit}}
+{}
+{\begin{itemize} % Description(s) of tasks/responsibilities
+    \item {Cron monitoring service written in Go.}
+    \item {Free, self-hosted alternative to services like Cronitor.}
+ \end{itemize}}
+}
+
+\headedsubsection
+{\textbf{Others} -- \url{github.com/zricethezav}}
+{}
+{\begin{itemize} 
+    \item {reddit\_murmur - reddit streaming client that scores sentiment from subreddit comments} 
+    \item {TwitterKeep - Download and store tweets by search term or user in Postgres.}
+    \item {TwitterScrape - Scrape tweets from html.}
+ \end{itemize}}
+}
+
+
+\section{Skills}
+\inlineheadsection
+{Languages: }{Python, C, Go, Bash, C++, Haskell, Java, x86, CUDA, PostgresSQL, \LaTeX }
+\inlineheadsection
+{Technologies: }{Django, Flask, AWS: \{Kinesis, Redshift, Firehose, Lambda, EBS, ECS\} Redis, Postgres, ElasticSearch, Celery, Heroku, Vagrant, Docker, Wireshark, BurpSuite, Selenium, Vim}
+
+
+
+\end{document}
+
+＀
+
+
